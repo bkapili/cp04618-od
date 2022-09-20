@@ -1,5 +1,5 @@
 ---
-title: "<br> Taxonomic profiling of bacterial and archaeal communities from saliva, stool, and CapScan-sampled gut metagenomes"
+title: "<br> Taxonomic profiling of bacterial and archaeal communities from saliva and CapScan-sampled gut metagenomes"
 output:
   html_document:
     df_print: paged
@@ -245,7 +245,7 @@ pBar <- plot_ly(df, x = ~Plot_label, y = ~Abundance, type = "bar",
 pBar$x$layout$yaxis$linecolor <- "#000000"
 pBar
 ```
-**Figure 1:** Microbial community composition of collected saliva, stool, and CapScan samples. CapScan samples are ordered from proximal to distal intestine (*i*.*e*., increasing distance from mouth). Taxonomic composition is reported at the genus rank. Genera present at <1% relative abundance across all samples are reported as "Other genera". <u>Note:</u> Blue = *Firmicutes*; Yellow = *Actinomycetes*; Green = *Bacteroidetes*; Red = *Proteobacteria*; Purple = all other phyla. Shades of the same color (except purple) correspond to different genera from the same phylum.
+**Figure 1:** Microbial community composition of collected saliva and CapScan samples. CapScan samples are ordered from proximal to distal intestine (*i*.*e*., increasing distance from mouth). Taxonomic composition is reported at the genus rank. Genera present at <1% relative abundance across all samples are reported as "Other genera". <u>Note:</u> Blue = *Firmicutes*; Yellow = *Actinomycetes*; Green = *Bacteroidetes*; Red = *Proteobacteria*; Purple = all other phyla. Shades of the same color (except purple) correspond to different genera from the same phylum.
 
 ```{r, include = FALSE}
 # Ordination-based
@@ -386,8 +386,8 @@ pHeat
 ### 1.4 References
 </div>
 
-Duranti, S., Ruiz, L., Lugli, G.A., Tames, H., Milani, C., Mancabelli, L., *et al*. (2020) *Bifidobacterium adolescentis* as a key member of the human gut microbiota in the production of GABA. *Sci Rep* 10: 1–13.
+Duranti, S., Ruiz, L., Lugli, G.A., Tames, H., Milani, C., Mancabelli, L., *et al*. (2020) *Bifidobacterium adolescentis* as a key member of the human gut microbiota in the production of GABA. *Sci Rep* **10:** 1–13.
 
-Killer, J., Sedláček, I., Rada, V., Havlík, J., and Kopečný, J. (2013) Reclassification of *Bifidobacterium stercoris* Kim *et al*. 2010 as a later heterotypic synonym of *Bifidobacterium adolescentis*. *Int J Syst Evol Microbiol* 63: 4350–4353.
+Killer, J., Sedláček, I., Rada, V., Havlík, J., and Kopečný, J. (2013) Reclassification of *Bifidobacterium stercoris* Kim *et al*. 2010 as a later heterotypic synonym of *Bifidobacterium adolescentis*. *Int J Syst Evol Microbiol* **63:** 4350–4353.
 
-Strandwitz, P., Kim, K.H., Terekhova, D., Liu, J.K., Sharma, A., Levering, J., *et al*. (2019) GABA-modulating bacteria of the human gut microbiota. *Nat Microbio* 4: 396–403.
+Strandwitz, P., Kim, K.H., Terekhova, D., Liu, J.K., Sharma, A., Levering, J., *et al*. (2019) GABA-modulating bacteria of the human gut microbiota. *Nat Microbio* **4:** 396–403.
